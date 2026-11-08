@@ -2,10 +2,11 @@
 
 int main()
 {
-int a=12,b=4;
-int x=a++ - --b;
-int y=--a + ++a % --b;
+    int x,cube;
+    printf("enter the number = ");
+    scanf("%d",&x);
 
-    printf("%d%d", x,y);
+    cube = x*x*x;
+    printf("cube = %d",cube);
     return 0;
 }
