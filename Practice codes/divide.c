@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+float main()
 {
     float x,y;
 
@@ -10,7 +10,7 @@ int main()
     printf("Enter the value of y = ");
     scanf("%f",&y);
 
-    printf("divide=%2f",x/y);
+    printf("divide=%f",x/y);
 
     return 0;
 
