@@ -8,16 +8,8 @@ int main()
 printf("Enter a number = ");
 scanf("%d",&x);
 
-if ((x%7==0) && (x%3==0))
-{
-    printf("Divisible by both");
-}
+((x%7==0) && (x%3==0))?printf("Divisible by both"):printf("not divisible");
 
-else
-{
-    printf("not divisible");
-
-}
 
 return 0;
 }
