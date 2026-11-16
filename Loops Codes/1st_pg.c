@@ -1,11 +1,11 @@
+//Print 5 times using for loop.
 #include<stdio.h>
 int main()
 {
-    int i;
-    for(i=1;i<=5;i++)
+    int a;
+    for(a=10;a>=1;a--)
     {
-        printf("Hello\n");
+        printf("%d\n",a);
     }
-
     return 0;
 }
