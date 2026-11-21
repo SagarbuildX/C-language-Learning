@@ -12,7 +12,7 @@ int main()
         if(i%3==0 && i%5==0)
         {
             printf("%d\n",i);
-            count++;
+            count++;         //check conditn whether true or false if true count +1 .......15 divide by both so count+1=1...
         }
     }
 
