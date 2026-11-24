@@ -32,10 +32,7 @@ int main()
     break;
 
     default : printf("Not a valid day");
-
-
    }
-
    return 0;
    
 } 
